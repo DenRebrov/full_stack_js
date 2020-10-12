@@ -6,4 +6,4 @@ function filterByLength(array, from, to) {
     return element.length >= from && element.length <= to
   });
 }
-console.log(filterByLength(fruits, 0,5));
+console.log(filterByLength(fruits, 0, 5));

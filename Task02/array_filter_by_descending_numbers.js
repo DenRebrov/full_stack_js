@@ -1,7 +1,9 @@
 const numbers = [-20, -10, 0, 10, 20, 30]
 
 function sortDesc(array) {
-  array.sort();
+  return array.sort(function(a, b) {
+    return b - a;
+  });
   array.reverse();
   return array
 }

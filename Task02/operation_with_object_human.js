@@ -10,7 +10,7 @@ const human = {
 
   dateOfBirth: {
     set: function(value) {
-      [this.age] = new Date().getFullYear() - this
+      this.age = new Date().getFullYear() - this
     },
   }
 };
